@@ -15,7 +15,24 @@ This equation models the temperature (T) changes inside the reactor, balancing t
 
 3)Reaction Rate (Arrhenius Equation)
 The chemical reaction rate (r) is highly non-linear and depends strongly on the current reactor temperature and concentration:
+
 <img width="229" height="77" alt="Screenshot 2026-05-22 001043" src="https://github.com/user-attachments/assets/0cf8b648-ce44-4f8c-ba47-dffa07d04d9f" />
+
+#Parameter Descriptions:
+* C_A = Concentration of Reactant A inside the reactor 
+* C_Af: Feed Concentration of Reactant A
+* T: Reactor Temperature 
+* T_f: Feed Temperature 
+* T_c: Cooling Jacket Temperature 
+* F: Volumetric Flow Rate 
+* V: Reactor Volume 
+* r: Reaction Rate 
+* k_0: Pre-exponential Arrhenius Factor 
+* E/R: Activation Energy over Universal Gas Constant 
+* -Delta H: Heat of Reaction 
+* rho: Fluid Density 
+* C_p: Specific Heat Capacity 
+* UA: Overall Heat Transfer Coefficient Area Product 
 
 
 
