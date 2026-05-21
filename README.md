@@ -32,7 +32,11 @@ The chemical reaction rate (r) is highly non-linear and depends strongly on the 
 * -Delta H: Heat of Reaction 
 * rho: Fluid Density 
 * C_p: Specific Heat Capacity 
-* UA: Overall Heat Transfer Coefficient Area Product 
+* UA: Overall Heat Transfer Coefficient Area Product
+
+| Metric | Initial State | Steady-State Value |
+| Temperature (T) | 350 (K)| |approx 305 (K) |
+| Concentration (C_A) | 0.5 (mol/L) | | 0.491(mol/L) |
 
 
 
