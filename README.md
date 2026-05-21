@@ -40,6 +40,14 @@ The chemical reaction rate (r) is highly non-linear and depends strongly on the 
 
 | Concentration (C_A) | 0.5 (mol/L) | | 0.491(mol/L) |
 
+# Result :
+When we ran the CSTR model in Simulink for 2 seconds using our exact parameters, the system successfully settled into a stable, perfectly balanced condition (Steady-State)
+1. Reactor Temperature (T) Graph :
+The temperature starts at a high value of 350 (K), immediately drops in a smooth curve, and flattens out perfectly at around 305 (K) within just half a second. This is good because the chemical reaction inside the tank is exothermic (it generates its own heat), the reactor naturally wants to overheat. However, our Cooling Jacket
+ T_c = 300 (K) works perfectly. It removes the excess heat so efficiently that the temperature stabilizes safely at 305 (K), completely preventing any dangerous thermal runaway or explosion
+2. Reactant Concentration (C_A) Graph:
+The concentration of the raw chemical starts at 0.5 (mol/L) and smoothly curves downward, flattening out at around 0.491  (mol/L). This is good because inn a chemical reactor, a drop in reactant concentration is exactly what you want to see! It is the mathematical proof that the chemical reaction is actively working. The raw material is successfully being consumed and converted into the final product.
+
 ##  How to Run
 1. Download this repository as a ZIP file and extract it.
 2. Open MATLAB, navigate to the directory, and execute `model/cstr_workspce.m` to load variables.
