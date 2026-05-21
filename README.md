@@ -35,8 +35,16 @@ The chemical reaction rate (r) is highly non-linear and depends strongly on the 
 * UA: Overall Heat Transfer Coefficient Area Product
 
 | Metric | Initial State | Steady-State Value |
+
 | Temperature (T) | 350 (K)| |approx 305 (K) |
+
 | Concentration (C_A) | 0.5 (mol/L) | | 0.491(mol/L) |
+
+##  How to Run
+1. Download this repository as a ZIP file and extract it.
+2. Open MATLAB, navigate to the directory, and execute `model/cstr_workspce.m` to load variables.
+3. Open `model/cstr_model.slx` and click **Run** in Simulink to view the stable scope trajectories.
+
 
 
 
